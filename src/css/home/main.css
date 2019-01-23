@@ -32,7 +32,7 @@ header a:hover, footer a:hover{
 }
 
 #section1 {
-  background-image: url("apes1.jpg");
+  background-image: url("img/home/apes1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -72,7 +72,7 @@ header a:hover, footer a:hover{
 }
 
 #section5 {
-  background-image: url("baby.jpg");
+  background-image: url("img/home/baby.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
