@@ -1,0 +1,113 @@
+
+
+body {
+  margin : 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+header {
+  text-align: right;
+  padding: 25px;
+  background-color: #afc7ab;
+  position: sticky;
+  top: 0;
+  opacity: .7;
+  transition: all .3s;
+}
+
+header:hover{
+  opacity: 1;
+}
+
+header a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+header a:hover, footer a:hover{
+  color: green;
+}
+
+#section1 {
+  background-image: url("img/home/apes1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section1 h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#section2{
+  columns: 3;
+  margin: 20px 60px;
+}
+
+#section3, footer {
+  display: flex;
+}
+
+#section3 {
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#section3 img{
+  max-width: 85%;
+}
+
+#section4 img{
+  width: 100%;
+}
+
+#section5 {
+  background-image: url("img/home/baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+
+#section6 img{
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer{
+  background-color: #161616;
+  color: #afc7ab;
+  justify-content: space-evenly;
+  flex: wrap;
+  padding: 40px 0px;
+  align-items: center;
+}
+
+footer a{
+  color: #afc7ab;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+#footer_img img{
+  max-width: 200px;
+}
+
+#footer_contact li{
+  padding: 15px 0px;
+}
+
+#footer_menu li{
+  padding: 8px;
+}

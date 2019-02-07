@@ -1,0 +1,24 @@
+{
+  "name": "b3-css-2k19",
+  "version": "1.0.0",
+  "description": "I 💚 CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luctst/b3-css-2k19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/luctst/b3-css-2k19/issues"
+  },
+  "homepage": "https://github.com/luctst/b3-css-2k19#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  }
+}
