@@ -1,0 +1,14 @@
+.premiere-section{
+  padding: 4%;
+}
+
+#flex-wrap {
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#flex-wrap img {
+  max-width: 85%;
+}

@@ -1,0 +1,84 @@
+header {
+    text-align: right;
+    padding: 25px;
+    background-color: #afc7ab;
+    position: sticky;
+    top: 0px;
+    opacity: .7;
+    transition:  all .3s;
+  }
+  header:hover{
+    opacity: 1;
+  }
+  
+  header a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s;
+  }
+  
+  header a:hover, footer a:hover {
+    color: green;
+  }
+
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+footer{
+    background-color: #161616;
+    color: #afc7ab;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    align-items: center;
+    display: flex;
+  }
+  
+  footer a{
+    color: #afc7ab;
+    text-decoration: none;
+    transition: all .4s;
+  }
+  
+  
+  #footer-1 img{
+    max-width: 200px;
+  }
+  
+  #footer-2 li{
+    padding: 15px 0;
+  }
+  
+  #footer-3 li{
+    padding: 8px 0;
+  }
+
+  .btn{
+      padding: 10px 25px;
+      border: 1px solid #fff;
+      color: #fff;
+      text-decoration: none;
+      display : block;
+      max-width: 110px;
+      transition: all .3s;
+  }
+
+  p{
+      margin:10px 0;
+  }
+
+  .btn:hover{
+    background-color: #161616;
+    border-color: #161616;
+  }

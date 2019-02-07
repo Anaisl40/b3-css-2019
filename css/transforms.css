@@ -1,0 +1,34 @@
+.section-titre{
+    padding: 4%;
+}
+
+.section-principale {
+    padding: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.vignette1 img {
+    transform: translate(100px) rotate(20deg);
+    transform-origin: 0 -250px;
+}
+
+.vignette2 img {
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+}
+
+.vignette3 img {
+    transform: skew(30deg, 20deg);
+}
+
+@keyframes roll {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
