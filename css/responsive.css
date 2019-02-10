@@ -9,14 +9,9 @@
   }
 
   #content-images2{
-    background-image: url('../gorilla.jpg');
+    background-image: url('../img/responsive_background_gorilla.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
     background-position: center;
   }
-
-.hero {
-    background-image: url('../hero_responsive.jpg');
-  }
-  

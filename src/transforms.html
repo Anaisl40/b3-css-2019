@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/transforms.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/scaffolding.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+            <a href="../index.html" class="js-anchor-link">Home</a>
+            <a href="responsive.html" class="js-anchor-link">Responsive</a>
+            <a href="flexbox.html" class="js-anchor-link">Flexbox</a>
+            <a href="grid.html" class="js-anchor-link">Grid</a>
+            <a href="transforms.html" class="js-anchor-link">Transforms</a>
+    </header>
+
+
+    <section class="hero">
+        <h1>Transform images pages</h1>
+    </section>
+    <div class="container">
+
+        <h2>Transform scale</h2>
+        <p>The scale() function allows you to modify the size of an element with a two-dimensional scale factor. This
+            transformation is defined by a vector whose coordinates define the deformation applied in each direction.
+            <br> I used the following code: <br>
+            <br>.vignette1 img {<br>
+            transform: scale(0.5, 0.8); <br>
+            }
+        </p>
+        <div class="vignette1">
+            <img src="../img/tranforms_ape.jpg" alt="">
+        </div>
+
+        <h2>Transform rotate</h2>
+        <p>The rotate() function defines a transformation that moves an element around a fixed point without deforming
+            it. It is a rotation around this point. By default, this origin corresponds to the center of the element.
+            <br>I used the following code: <br>
+            <br>.vignette2 img {<br>
+            transform: rotate(0.5turn);<br>
+            }
+        </p>
+        <div class="vignette2">
+                <img src="../img/tranforms_ape.jpg" alt="">
+        </div>
+
+        <h2>Transform skew</h2>
+        <p>The skew() function allows distortion by stretching each point of the element by a certain angle in a
+            direction of the plane. To do this, the ordinate of an element is increased by a value proportional to the
+            given angle and distance from the origin. The further away the point is from the origin, the greater the
+            offset obtained.
+            <br>I used the following code: <br>
+            <br>.vignette3 img {<br>
+                padding: 2%;<br>
+                transform: skew(10deg, 5deg);<br>
+            }
+        </p>
+        <div class="vignette3">
+                <img src="../img/tranforms_ape.jpg" alt="">
+        </div>
+    </div>
+    <footer>
+            <div id="footer-1"><img src="../img/footer_anais.jpg" alt=""></div>
+        <div id="footer-2">
+            <ul>
+                <li>Anaïs Lousse</li>
+                <li>anaislousse@outlook.com</li>
+                <li>ECV Digital Bordeaux</li>
+            </ul>
+        </div>
+        <div id="footer-3">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="responsive.html">Responsive</a></li>
+                <li><a href="flexbox.html">Flexbox</a></li>
+                <li><a href="grid.html">Grid</a></li>
+                <li><a href="transforms.html">Transforms</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
