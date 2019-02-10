@@ -1,4 +1,12 @@
-
 .hero {
-  background-image: url('../apes1.jpg');
+  background-image: url('../hero_responsive.jpg');
+}
+
+#section1 img, #section2 img, #section3 img, #section4 img{
+  width:300px;
+  height:200px;
+}
+
+#section1, #section2, #section3, #section4 {
+  padding-bottom: 30px;
 }

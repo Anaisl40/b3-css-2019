@@ -26,14 +26,20 @@
     </header>
 
     <section class="hero">
-        <h1>Responsive image pages</h1>
+        <h1>Responsive images pages</h1>
     </section>
     <div class="container">
         <section id="content-images">
             <h2>Content images</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet non orci quis lacinia.
-                Suspendisse sit amet orci gravida, suscipit massa vel, pretium neque. In interdum justo lacinia,
-                tristique urna vulputate, ultricies turpis.</p>
+            <p>The object-fit CSS property defines how the content of a replaced element should adapt to its parent
+                using its width and height.<br> Here I used the following code:<br>
+                <br>#content-images img{<br>
+                max-height: 200px;<br>
+                object-fit: cover;<br>
+                width: 100%;<br>
+                }
+
+            </p>
             <img src="section6_1.jpg" alt="">
             <img src="section6_2.jpg" alt="">
             <img src="section6_3.jpg" alt="">
@@ -42,14 +48,20 @@
             <img src="section6_6.jpg" alt="">
         </section>
 
-    
 
-    <h2>Background image</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet non orci quis lacinia.
-        Suspendisse sit amet orci gravida, suscipit massa vel, pretium neque. In interdum justo lacinia,
-        tristique urna vulputate, ultricies turpis.</p>
-    <section id="content-images2">
-    </section>
+
+        <h2>Background image</h2>
+        <p>The background-image property allows you to define one or more images as background for an element. 
+            <br>Here I  used the following code:<br>
+            <br>#content-images2{<br>
+                background-image: url('../gorilla.jpg');<br>
+                background-repeat: no-repeat;<br>
+                background-size: cover;<br>
+                min-height: 400px;<br>
+                background-position: center;<br>
+              }</p>
+        <section id="content-images2">
+        </section>
 
     </div>
 

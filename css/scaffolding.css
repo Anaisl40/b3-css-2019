@@ -1,7 +1,7 @@
 header {
     text-align: right;
     padding: 25px;
-    background-color: #afc7ab;
+    background-color: #344E41;
     position: sticky;
     top: 0px;
     opacity: .7;
@@ -13,13 +13,11 @@ header {
   
   header a {
     margin: 0 15px;
-    color: #fff;
-    text-decoration: none;
     transition: all .4s;
   }
   
   header a:hover, footer a:hover {
-    color: green;
+    color: #8ACB88;
   }
 
 
@@ -37,7 +35,7 @@ header {
 
 footer{
     background-color: #161616;
-    color: #afc7ab;
+    color: #D8D1B8;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 40px 0;
@@ -46,7 +44,7 @@ footer{
   }
   
   footer a{
-    color: #afc7ab;
+    color: #D8D1B8;
     text-decoration: none;
     transition: all .4s;
   }
@@ -76,6 +74,8 @@ footer{
 
   p{
       margin:10px 0;
+      text-align: justify;
+      word-spacing: 5px;
   }
 
   .btn:hover{

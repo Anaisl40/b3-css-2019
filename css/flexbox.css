@@ -1,5 +1,5 @@
-.premiere-section{
-  padding: 4%;
+.hero {
+  background-image: url('../hero_responsive.jpg');
 }
 
 #flex-wrap {
@@ -11,4 +11,5 @@
 
 #flex-wrap img {
   max-width: 85%;
+  margin-top: 10px; 
 }
