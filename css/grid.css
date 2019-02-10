@@ -1,6 +1,6 @@
-.premiere-section{
-    padding: 4%;
-  }
+.hero {
+  background-image: url('../hero_responsive.jpg');
+}
 
 #grid-layout{
   display: grid;
