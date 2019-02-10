@@ -29,9 +29,17 @@
     </section>
     <div class="container">
         <h2>Grid-layout images</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet non orci quis lacinia.
-            Suspendisse sit amet orci gravida, suscipit massa vel, pretium neque. In interdum justo lacinia,
-            tristique urna vulputate, ultricies turpis.</p>
+        <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to
+            design web pages without having to use floats and positioning. <br> In order to have the following image display,
+            I used the code :<br>
+            <br>#grid-layout{ <br>
+                display: grid;<br>
+                grid-template-columns: repeat(3, 1fr);<br>
+                grid-gap: 10px;<br>
+                grid-auto-rows: minmax(100px, auto);<br>
+              }
+
+            </p>
 
         <section id="grid-layout">
             <div class="vignette1"><img src="apes6.jpg" alt="">

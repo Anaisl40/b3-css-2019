@@ -75,6 +75,7 @@ footer{
   p{
       margin:10px 0;
       text-align: justify;
+      word-spacing: 5px;
   }
 
   .btn:hover{
