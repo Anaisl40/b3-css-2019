@@ -2,82 +2,106 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Learn CSS</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/flexbox.css">
-    <link rel="stylesheet" href="../css/typography.css">
-    <link rel="stylesheet" href="../css/scaffolding.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learn CSS</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/flexbox.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/scaffolding.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <header>
-            <a href="../index.html" class="js-anchor-link">Home</a>
-            <a href="responsive.html" class="js-anchor-link">Responsive</a>
-            <a href="flexbox.html" class="js-anchor-link">Flexbox</a>
-            <a href="grid.html" class="js-anchor-link">Grid</a>
-            <a href="transforms.html" class="js-anchor-link">Transforms</a>
-    </header>
-    <section class="hero">
-        <h1>Flexbox images pages</h1>
+  <header>
+    <a href="../index.html" class="js-anchor-link">Home</a>
+    <a href="responsive.html" class="js-anchor-link">Responsive</a>
+    <a href="flexbox.html" class="js-anchor-link">Flexbox</a>
+    <a href="grid.html" class="js-anchor-link">Grid</a>
+    <a href="transforms.html" class="js-anchor-link">Transforms</a>
+  </header>
+  <section class="hero">
+    <h1>Flexbox images pages</h1>
+  </section>
+
+  <div class="container">
+    <h2>Flexbox images</h2>
+    <p>The principle of layout with Flexbox is simple: you define a container, and inside you place several
+      elements. <br>
+      I used the following code:<br>
+      <br>#flex-wrap {<br>
+      justify-content: space-evenly;<br>
+      text-align: center;<br>
+      flex-wrap: wrap;<br>
+      display: flex;<br>
+      }
+      <br>
+      #flex-wrap img {<br>
+      max-width: 85%;<br>
+      margin-top: 10px; <br>
+      }
+    </p>
+
+    <section id="flex-wrap">
+      <div class="vignette"><img src="../img/flexbox_ape1.jpg" alt="">
+      </div>
+      <div class="vignette"><img src="../img/flexbox_ape2.jpg" alt="">
+      </div>
+      <div class="vignette"><img src="../img/flexbox_ape3.jpg" alt="">
+      </div>
+      <div class="vignette"><img src="../img/flexbox_ape4.jpg" alt="">
+      </div>
+      <div class="vignette"><img src="../img/flexbox_ape5.jpg" alt="">
+      </div>
     </section>
 
-    <div class="container">
-        <h2>Flexbox images</h2>
-        <p>The principle of layout with Flexbox is simple: you define a container, and inside you place several
-            elements. <br>
-            I used the following code:<br> 
-            <br>#flex-wrap {<br>
-                justify-content: space-evenly;<br>
-                text-align: center;<br>
-                flex-wrap: wrap;<br>
-                display: flex;<br>
-              }
-              <br>
-              #flex-wrap img {<br>
-                max-width: 85%;<br>
-                margin-top: 10px; <br>
-              }
-            </p>
 
-        <section id="flex-wrap">
-            <div class="vignette"><img src="../img/flexbox_ape1.jpg" alt="">
-            </div>
-            <div class="vignette"><img src="../img/flexbox_ape2.jpg" alt="">
-            </div>
-            <div class="vignette"><img src="../img/flexbox_ape3.jpg" alt="">
-            </div>
-            <div class="vignette"><img src="../img/flexbox_ape4.jpg" alt="">
-            </div>
-            <div class="vignette"><img src="../img/flexbox_ape5.jpg" alt="">
-            </div>
-        </section>
+    <section class="column">
+      <div class="col">
+        <p>The CSS3 Flexbox Layout module provides an efficient way to arrange, align and distribute space between
+          items in a container, even when their dimensions are unknown and/or dynamic - hence the term "flex".Flexbox
+          is a module, not a property, this has many consequences, among other things that Flexbox has its own
+          properties.</p>
+      </div>
+      <div class="col">
+        <p>The main idea is to give a container element the possibility to change the width and height of the contained
+          elements (items), in order to fill the available space as well as possible, and to adapt to all terminals and
+          screen sizes. A flexible container allows the items to expand to occupy the available space or, on the
+          contrary, reduces them to prevent them from overflowing.</p>
+      </div>
+      <div class="col">
+        <p>The main idea is to give a container element the possibility to change the width and height of the contained
+          elements (items), in order to fill the available space as well as possible, and to adapt to all terminals and
+          screen sizes. A flexible container allows the items to expand to occupy the available space or, on the
+          contrary, reduces them to prevent them from overflowing.</p>
+      </div>
+    </section>
+
+
+  </div>
+  <footer>
+    <div id="footer-1"><img src="../img/footer_anais.jpg" alt=""></div>
+    <div id="footer-2">
+      <ul>
+        <li>Anaïs Lousse</li>
+        <li>anaislousse@outlook.com</li>
+        <li>ECV Digital Bordeaux</li>
+      </ul>
     </div>
-    <footer>
-        <div id="footer-1"><img src="../img/footer_anais.jpg" alt=""></div>
-        <div id="footer-2">
-            <ul>
-                <li>Anaïs Lousse</li>
-                <li>anaislousse@outlook.com</li>
-                <li>ECV Digital Bordeaux</li>
-            </ul>
-        </div>
-        <div id="footer-3">
-            <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="responsive.html">Responsive</a></li>
-                    <li><a href="flexbox.html">Flexbox</a></li>
-                    <li><a href="grid.html">Grid</a></li>
-                    <li><a href="transforms.html">Transforms</a></li>
-            </ul>
-        </div>
-    </footer>
+    <div id="footer-3">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="responsive.html">Responsive</a></li>
+        <li><a href="flexbox.html">Flexbox</a></li>
+        <li><a href="grid.html">Grid</a></li>
+        <li><a href="transforms.html">Transforms</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
