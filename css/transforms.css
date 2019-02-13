@@ -4,10 +4,21 @@
 }
 
 .vignette2 img {
-    transform: rotate(0.5turn);
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
 }
 
 .vignette3 img {
     padding: 2%;
     transform: skew(10deg, 5deg);
 }
+
+  
+  @keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
